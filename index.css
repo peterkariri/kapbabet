@@ -1,0 +1,210 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.table{
+    width: 100vw;
+    border-collapse: collapse;
+    
+    
+}
+#none{
+    border: none;
+}
+
+.first{
+    background-color: red; 
+    display: flex;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+    border-right: 2px solid white;
+    padding-right: 10px;
+    color: white;
+}
+select{
+    background-color: red;
+    color: rgb(233, 154, 7);
+    border: 1px solid white;
+
+}
+#first-td{
+    background-color: rgb(233, 154, 7);
+}
+#td-first:hover{
+    background-color: grey;
+}
+select:hover{
+    color: grey;
+    background-color: grey;
+}
+
+.table{
+    background-color: grey;
+    border-bottom: 3px solid red;
+}
+
+
+.zero a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    border-right: 2px solid white;
+}
+.zero td{
+    color: white;
+}
+a:hover{
+    color: grey;
+}
+.table{
+    width: 100%;
+}
+
+ .table td{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    border-right: 1.5px solid white;
+    cursor: pointer;
+    
+}
+.table a{
+    text-decoration: none;
+    color: white;
+}
+.unique{
+    text-decoration: underline;
+}
+select{
+    width: 100%;
+    padding: 8px;
+}
+option{
+    color: orange;
+}
+.table td:hover{
+    background-color: orange;
+}
+
+.table a:hover{
+    color: white;
+}
+.table td{
+    padding: 15px;
+}
+.header-logo{
+    padding-top: 36px;
+    width: 80%;
+    margin: 36px auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+
+}
+.search{
+    display: flex;
+    
+}
+input{
+width: 100%;
+padding: 8px;
+border-top-left-radius: 8px;
+border-bottom-left-radius: 8px;
+border: 1px solid grey;
+
+}
+button{
+    width: 30%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(42, 42, 197);
+    color: white;
+    padding: 8px;
+    border: 1px solid grey;
+    position: relative;
+    right: 2%;
+}
+button:hover{
+    background-color: orange;
+}
+main{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+/* .image{
+    background-image: url("/images/kapsabet1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.image img{
+    width: 100%;
+    
+} */
+ .image{
+    width: 100%;
+    align-items: center;
+    background-color: rgb(247, 241, 241);
+    height: 950px;
+
+ }
+ .image img{
+    width: 100%;
+ } 
+.academics{
+    position:relative;
+    bottom: 400px;
+    background-color: rgba(255,255,255,0.6);
+    width: 36%;
+    height: 150px;
+    margin-left: 60px;
+    border-radius: 0px 180px 0px 0px;
+    border-right: 6px solid  orange;
+    padding: 20px;
+    padding-bottom: 40px;
+    align-items: center;
+  color: rgb(57, 57, 126);
+}
+.content{
+    display: flex;
+flex-basis: 1;
+width: 90%;
+margin: 0 auto;
+gap: 40px;
+position: relative;
+padding: 20px;
+bottom:190px;
+}
+.similar{
+    width: 100%;
+}
+.similar h1{
+  color: rgb(57, 57, 126);
+  font-size: 20px;
+}
+.similar p{
+    color: grey;
+}
+.similar h1:hover{
+    color: rgb(120, 120, 186); ;
+    cursor: pointer;
+}

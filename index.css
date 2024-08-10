@@ -430,12 +430,21 @@ h2,h3,h4,h4{
     width:60%;
     color: white;
  }
+ #meean{
+    width: 70%;
+ }
+ #meean a{
+  font-size: 15px;
+ }
+
  .foot-child a{
    text-decoration: none;
    color: white;
  }
  .foot-child li{
     color: orange;
+    list-style: none;
+
  }
  .foot-child h1,h2{
     color: grey;

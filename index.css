@@ -1,4 +1,5 @@
 
+  
 body{
     padding: 0;
     margin: 0;
@@ -24,17 +25,19 @@ body{
 }
 nav ul{
     display: flex;
-    gap: 40px;
+    gap: 10px;
 }
 nav a{
     color: white;
     text-decoration: none;
+    padding: 2px;
+   
 }
 
 nav ul li{
     list-style: none;
     border-right: 2px solid white; 
-    padding-right: 10px;
+    padding-right: 5px;
     color: white;
 }
 select{
@@ -126,7 +129,7 @@ option{
     flex-wrap:inherit;
     
 }
-input{
+.search input{
 width: 100%;
 padding: 8px;
 border-top-left-radius: 8px;
@@ -134,7 +137,7 @@ border-bottom-left-radius: 8px;
 border: 1px solid grey;
 
 }
-button{
+.search button{
     width: 30%;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -208,7 +211,7 @@ bottom:190px;
     color: grey;
 }
 .similar h1:hover{
-    color: rgb(120, 120, 186); ;
+    color: rgb(120, 120, 186); 
     cursor: pointer;
 }
 .news{
@@ -226,7 +229,7 @@ bottom:190px;
 
 }
 .mourns a{
-    color:rgb(72, 72, 131); ;
+    color:rgb(72, 72, 131); 
     text-decoration: none;
     
 }
@@ -244,7 +247,7 @@ bottom:190px;
 .mourns span:hover{
     font-size: 15px;
     cursor: pointer;
-    color: rgb(160, 160, 220); ;
+    color: rgb(160, 160, 220); 
 
 }
 .news-2 img{
@@ -257,3 +260,197 @@ bottom:190px;
     display: block;
     margin-top: 130px;
 }
+.fa-regular{
+    rotate: 270deg;
+}
+.news-3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65%;
+    margin-left: 23px;
+}
+.same{
+  background-color: rgb(239, 235, 235);
+  display: flex;
+  padding: 13px;
+  align-items: center;
+  gap: 10px;
+  
+  
+}
+.kapsabet{
+    background-color: rgb(239, 235, 235);
+ 
+  padding: 6px;
+  align-items: center;
+  
+}
+.same img{
+    width:20% ;
+}
+.news-3 a{
+    text-decoration: none;
+    color:rgb(72, 72, 131); 
+    font-weight: 900;
+    font-size: 16px;
+
+}
+.news-3 p{
+    font-size: 13px;
+    color: rgb(148, 142, 142);
+}
+h2,h3,h4,h4{
+    font-weight: 900;
+}
+.news-3 a:hover{
+    color: rgb(160, 160, 220); 
+}
+.posts{
+    display: flex;
+    width: 90%;
+    gap: 30px;
+    margin: 30px auto;
+    
+}
+.high{
+    width: 70%;
+    margin: 0 auto;
+}
+.high img{
+    width: 100%;
+}
+.post-child{
+    width: 25%;
+    margin: 0 auto;
+}
+.search-in{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    
+}
+.label input{
+   padding: 10px;
+   border: 1px solid rgb(189, 185, 185);
+}
+.smaller-search button{
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    top: 9px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 3px;
+} 
+/* continuation of where we left off//saturday
+ */
+ .posts h1,h2{
+    color:rgb(52, 52, 119);  
+    font-size: 22px;
+    
+ }
+ .posts a{
+    color: rgb(75, 75, 138);
+    font-size: 15px;
+    text-decoration: none;
+ }
+ .posts li{
+    list-style-type:square;
+    color: orangered;
+    font-weight: 100;
+ }
+ .comments a:hover{
+    color: rgb(118, 118, 169);
+ }
+ .comments span{
+    color: grey;
+ }
+ .article{
+    width:90%;
+    margin: 0 auto;
+ }
+ .articles-1{
+    width: 77%;
+ }
+ .articles-1 article{
+    color: grey;
+    line-height: 22px;
+    font-size:15px;
+ }
+ .articles-1 h4{
+    color:rgb(125, 20, 20) ;
+ }
+
+ footer{
+    display: flex;
+    flex-direction: column;
+}
+ .footer-one{
+    margin-top: 40px;
+    background-color: rgb(68, 68, 125);
+    border-top: 5px solid orange;
+ }
+
+
+ .first-foot{
+    display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+ 
+  gap: 20px;
+/*   align-items: center; */
+
+ }
+ #ft-child{
+    border-right: 1px dotted;
+    padding-right: 15px;
+   
+ }
+/*  .foot-child h1, p,span{
+    position: relative;
+    bottom: 40px;
+ } */
+ #ft-child2{
+    border-left: 1px dotted;
+    padding-left: 18px;
+ }
+
+ .second-foot{
+    
+    width: 90%;
+ }
+ .foot-child{
+    width:60%;
+    color: white;
+ }
+ .foot-child a{
+   text-decoration: none;
+   color: white;
+ }
+ .foot-child li{
+    color: orange;
+ }
+ .foot-child h1,h2{
+    color: grey;
+    font-size: 22px;
+ }
+ .footer-two{
+    background-color: black;
+    height: 100%;
+    
+ }
+ .second-foot{
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+ }
+
+
+

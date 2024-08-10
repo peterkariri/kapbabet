@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kapsabet High School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" href="/index.css">
 </head>
 <body>
       <div class="header">
+    
         
         <div class="first">
             <nav>
                 <ul>
-                    <li><a href="/phone">0202030117</a></li>
-                    <li><a href="/email">kapsabethigh@gmail.com</a></li>
-                    <li id="none">Notice:<a href="/notice" id="underline" >Welcome to Kapsabet High School;Soaring at the top</a></li>
+                    <li><i class="fa-solid fa-phone" style="color: #d8b32c;"></i><a href="/phone"> 0202030117</a></li>
+                    <li><i class="fa-solid fa-envelope" style="color: #e7bc23;"></i><a href="/email">kapsabethigh@gmail.com</a></li>
+                    <li id="none"><i class="fa-regular fa-hand-pointer fa-flip-both" style="color: #dfb82a;"></i>&nbsp;Notice:<a href="/notice" id="underline" >Welcome to Kapsabet High School;Soaring at the top</a></li>
                     
                 </ul>
             </nav>
@@ -175,13 +177,16 @@
         <section class="posts">
               <div class="high">
                 <h1>Kapsabet High School</h1>
-                <img src="/images/Kapsabet_High_Admin_Blockabout.jpg" alt="">
+                <img src="/images/kapsaclone.jpg" alt="">
               </div>
-
-              <div class="search-posts">
+           <div class="post-child">
+            <div class="search-posts">
                 <div class="search-in">
+                    <div class="label">
                     <label for="search-1">Search</label>
                     <input type="search" id="search-1" name="search">
+                    </div>
+                    
                     <div class="smaller-search">
                         <button type="submit">Search</button>
                     </div>
@@ -202,12 +207,14 @@
                 <span>
                     Joyce on
                     <a href="#">Welcome to the Legends’ Year_Upcoming Events</a>
-                </span>
+                </span><br>
                 <span>
                     Joyce on
                     <a href="#">Welcome to the Legends’ Year_Upcoming Events</a>
                 </span>
               </div>
+           </div>
+             
         </section>
 
         <section class="article">
@@ -253,50 +260,59 @@
         </section>
 
     </main>
-    <footer>
-        <div class="first-foot">
-            <div class="foot-child">
-                <h1>About us</h1>
-                <p>Welcome to Kapsabet High School! Founded in 1924 we are a renowned educational institution dedicated to providing quality education and fostering the holistic development of our students.</p>
-            </div>
-            <div class="foot-child">
-                <h1>Recent Posts</h1>
-                <ul>
-                    <li><a href="#">Kapsabet High School Mourns Mr. Kennedy Mwanja</a></li>
-                    <li><a href="#">Captain’s Corner;</a></li>
-                    <li><a href="#">Welcome to the Legends’ Year_Upcoming Events</a></li>
-                    <li><a href="#">“Beyond the Classroom: Exploring the Holistic Approach at Kapsabet Boys”</a></li>
-                    <li><a href="#">Unlocking Potential: How Kapsabet Boys Empowers Young Leaders for Success</a></li>
-                  </ul>
-            </div>
-            <div class="foot-child">
-                <h1>Contact Us</h1>
-                <div class="location">
-                    <span>Kapsabet Boys High school</span>
-                    <span>P.O Box 10,</span>
-                    <span>30300 kapsabet</span>
+<!--     added footer,footer-one,footer-two,id(ft-child)
+ -->    <footer>
+        <footer class="footer-one">
+            <div class="first-foot">
+                <div class="foot-child" id="ft-child">
+                    <h1>About us</h1>
+                    <p>Welcome to Kapsabet High School! Founded in 1924 we are a renowned educational institution dedicated to providing quality education and fostering the holistic development of our students.</p>
                 </div>
-                <div class="phone">
-                    <span>Email: Kapsabethigh@gmail.com</span>
-                    <span>Phone :0202030117</span>
+                <div class="foot-child">
+                    <h2>Recent Posts</h2>
+                    <ul>
+                        <li><a href="#">Kapsabet High School Mourns Mr. Kennedy Mwanja</a></li>
+                        <li><a href="#">Captain’s Corner;</a></li>
+                        <li><a href="#">Welcome to the Legends’ Year_Upcoming Events</a></li>
+                        <li><a href="#">“Beyond the Classroom: Exploring the Holistic Approach at Kapsabet Boys”</a></li>
+                        <li><a href="#">Unlocking Potential: How Kapsabet Boys Empowers Young Leaders for Success</a></li>
+                      </ul>
+                </div>
+                <div class="foot-child" id="ft-child2">
+                    <h1>Contact Us</h1>
+                    <div class="location">
+                        <span>Kapsabet Boys High school</span>
+                        <span>P.O Box 10,</span>
+                        <span>30300 kapsabet</span>
+                    </div>
+                    <div class="phone">
+                        <span>Email: Kapsabethigh@gmail.com</span>
+                        <span>Phone :0202030117</span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="second-foot">
-            <nav class="footer-nav">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/tender">Tenders</a></li>
-                    <li><a href="/academics">Academics</a></li>
-                    <li><a href="/club">Clubs,Societies&Sports</a></li>
-                    <li><a href="/news">News/Updates</a></li>
-                    <li><a href="/Contact">Contact Us</a></li>
-                </ul>
-            </nav>
-            <p>Copyright. All rights reserved. @2023 </p>
-        </div>
-
+           
+    
+        </footer>
+    
+       <!--  added footer code -->
+        <footer class="footer-two">
+            <div class="second-foot">
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/tender">Tenders</a></li>
+                        <li><a href="/academics">Academics</a></li>
+                        <li><a href="/club">Clubs,Societies&Sports</a></li>
+                        <li><a href="/news">News/Updates</a></li>
+                        <li><a href="/Contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <p>Copyright. All rights reserved. @2023 </p>
+            </div>
+        </footer>
     </footer>
+    
 
 
 </body>
